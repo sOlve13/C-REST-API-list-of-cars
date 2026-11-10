@@ -1,0 +1,157 @@
+
+var filePath = Path.Combine(Directory.GetCurrentDirectory(), "data", "cars.json");
+
+List<CarDto>? cars2 = new List<CarDto>();
+
+List<CarDto> LoadCars()
+{
+    if (!File.Exists(filePath))
+    {
+        return new List<CarDto>(); 
+    }
+    
+    var json = File.ReadAllText(filePath);
+    return JsonSerializer.Deserialize <List<CarDto>> (json) ?? new List<CarDto>();
+
+};
+
+
+void SaveCars(List<CarDto> cars = null)
+{
+    if(cars is null) return;
+    
+    File.WriteAllText(filePath, JsonSerializer.Serialize(cars));
+    
+};
+
+
+CarDto AddCar(AddCarsDto car)
+{
+     cars2 = LoadCars();
+
+    CarDto newCar = new()
+    {
+        Id = IDGenerator(cars2),
+        Make = car.Make,
+        Model = car.Model,
+        Year = car.Year,
+        Color = car.Color,
+        Price = new Random().Next(1000, 2000)
+    };
+    cars2.Add(newCar);
+    SaveCars(cars2);
+    
+    return newCar;
+
+}
+
+int IDGenerator(List<CarDto> cars)
+{
+    return cars2.Count == 0 ? 0 : cars.Max(c => c.Id) + 1;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Get All cars
+app.MapGet("/api/cars", () =>
+{
+    return LoadCars();
+});
+
+//Get Car by ID 
+app.MapGet("/api/cars/{id}", (int id) =>
+{
+    cars2 = LoadCars();
+    
+    CarDto cars  = cars2.Find(car => car.Id == id);
+   
+    return cars is null ? Results.NotFound() : Results.Ok(cars);
+
+
+}).WithName(FindByID);
+
+//Delete Car by ID 
+app.MapDelete("/api/cars/{id}", (int id) =>
+{
+
+    cars2 = LoadCars();
+    cars2.RemoveAll(cars => cars.Id == id);
+    SaveCars(cars2);
+
+    return Results.NoContent();
+});
+
+//Add Car 
+app.MapPost("/api/cars", (AddCarsDto car) => {
+
+// if (cars2.Count == 0)
+//     {
+    
+//     }
+
+// int check = cars2.Count();
+
+// CarDto carP = new CarDto
+// {
+//     Id = cars2.Count(),
+//     Make = car.Make,
+//     Model = car.Model,
+//     Year = car.Year,
+//     Color = car.Color,
+//     Price = car.Price
+// };
+
+// cars2.Add(carP);
+
+// SaveCars(cars2);
+    CarDto? result = AddCar(car);
+
+return result is not null ? Results.CreatedAtRoute(FindByID, new {id = result.Id}, result)  : Results.Problem("Car wasn't added");
+
+}
+); 
+
+//Update Car
+app.MapPut("/api/cars/{id}", (int id, UpdateCarDto car) =>
+{
+    cars2 = LoadCars();
+
+    int index = cars2.FindIndex(car => car.Id == id);
+    
+    if(index == -1){ return Results.NotFound();}
+    cars2[index] = new CarDto
+    {
+        Id = id,
+        Make = car.Make,
+        Model = car.Model,
+        Year = car.Year,
+        Color = car.Color,
+        Price = car.Price
+    };
+    
+
+    SaveCars(cars2);
+
+    return Results.NoContent();
+
+
+}); 

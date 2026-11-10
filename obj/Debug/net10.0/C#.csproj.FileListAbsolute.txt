@@ -1,0 +1,136 @@
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\bin\Debug\net10.0\appsettings.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\bin\Debug\net10.0\C#.staticwebassets.endpoints.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\bin\Debug\net10.0\C#.exe
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\bin\Debug\net10.0\C#.deps.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\bin\Debug\net10.0\C#.runtimeconfig.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\bin\Debug\net10.0\C#.dll
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\bin\Debug\net10.0\C#.pdb
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\C#.csproj.AssemblyReference.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\C#.AssemblyInfoInputs.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\C#.AssemblyInfo.cs
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\C#.csproj.CoreCompileInputs.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\C#.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\C#.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\scopedcss\bundle\C#.styles.css
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\C#.csproj.Up2Date
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\C#.dll
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\refint\C#.dll
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\C#.pdb
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\C#.genruntimeconfig.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\C#\obj\Debug\net10.0\ref\C#.dll
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\bin\Debug\net10.0\appsettings.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\bin\Debug\net10.0\C#.staticwebassets.endpoints.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\bin\Debug\net10.0\C#.exe
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\bin\Debug\net10.0\C#.deps.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\bin\Debug\net10.0\C#.runtimeconfig.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\bin\Debug\net10.0\C#.dll
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\bin\Debug\net10.0\C#.pdb
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\C#.csproj.AssemblyReference.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\C#.AssemblyInfoInputs.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\C#.AssemblyInfo.cs
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\C#.csproj.CoreCompileInputs.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\C#.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\C#.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\scopedcss\bundle\C#.styles.css
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\C#.csproj.Up2Date
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\C#.dll
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\refint\C#.dll
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\C#.pdb
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\C#.genruntimeconfig.cache
+C:\Users\Rinat\OneDrive\Рабочий стол\TestAPi\obj\Debug\net10.0\ref\C#.dll
+D:\TestAPi\bin\Debug\net10.0\appsettings.Development.json
+D:\TestAPi\bin\Debug\net10.0\appsettings.json
+D:\TestAPi\bin\Debug\net10.0\C#.staticwebassets.endpoints.json
+D:\TestAPi\bin\Debug\net10.0\C#.exe
+D:\TestAPi\bin\Debug\net10.0\C#.deps.json
+D:\TestAPi\bin\Debug\net10.0\C#.runtimeconfig.json
+D:\TestAPi\bin\Debug\net10.0\C#.dll
+D:\TestAPi\bin\Debug\net10.0\C#.pdb
+D:\TestAPi\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+D:\TestAPi\bin\Debug\net10.0\Microsoft.OpenApi.dll
+D:\TestAPi\obj\Debug\net10.0\C#.csproj.AssemblyReference.cache
+D:\TestAPi\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\TestAPi\obj\Debug\net10.0\C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\TestAPi\obj\Debug\net10.0\C#.AssemblyInfoInputs.cache
+D:\TestAPi\obj\Debug\net10.0\C#.AssemblyInfo.cs
+D:\TestAPi\obj\Debug\net10.0\C#.csproj.CoreCompileInputs.cache
+D:\TestAPi\obj\Debug\net10.0\C#.MvcApplicationPartsAssemblyInfo.cs
+D:\TestAPi\obj\Debug\net10.0\C#.MvcApplicationPartsAssemblyInfo.cache
+D:\TestAPi\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\TestAPi\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\TestAPi\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\TestAPi\obj\Debug\net10.0\scopedcss\bundle\C#.styles.css
+D:\TestAPi\obj\Debug\net10.0\staticwebassets.build.json
+D:\TestAPi\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\TestAPi\obj\Debug\net10.0\staticwebassets.development.json
+D:\TestAPi\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\TestAPi\obj\Debug\net10.0\swae.build.ex.cache
+D:\TestAPi\obj\Debug\net10.0\C#.csproj.Up2Date
+D:\TestAPi\obj\Debug\net10.0\C#.dll
+D:\TestAPi\obj\Debug\net10.0\refint\C#.dll
+D:\TestAPi\obj\Debug\net10.0\C#.pdb
+D:\TestAPi\obj\Debug\net10.0\C#.genruntimeconfig.cache
+D:\TestAPi\obj\Debug\net10.0\ref\C#.dll
+D:\TestAPi\bin\Debug\net10.0\data\cars.json
+D:\TestAPi\bin\Debug\net10.0\data\cars-back.json
+D:\Everything\TestAPi\bin\Debug\net10.0\appsettings.Development.json
+D:\Everything\TestAPi\bin\Debug\net10.0\appsettings.json
+D:\Everything\TestAPi\bin\Debug\net10.0\data\cars-back.json
+D:\Everything\TestAPi\bin\Debug\net10.0\data\cars.json
+D:\Everything\TestAPi\bin\Debug\net10.0\C#.staticwebassets.endpoints.json
+D:\Everything\TestAPi\bin\Debug\net10.0\C#.exe
+D:\Everything\TestAPi\bin\Debug\net10.0\C#.deps.json
+D:\Everything\TestAPi\bin\Debug\net10.0\C#.runtimeconfig.json
+D:\Everything\TestAPi\bin\Debug\net10.0\C#.dll
+D:\Everything\TestAPi\bin\Debug\net10.0\C#.pdb
+D:\Everything\TestAPi\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Everything\TestAPi\bin\Debug\net10.0\Microsoft.OpenApi.dll
+D:\Everything\TestAPi\obj\Debug\net10.0\C#.csproj.AssemblyReference.cache
+D:\Everything\TestAPi\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Everything\TestAPi\obj\Debug\net10.0\C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Everything\TestAPi\obj\Debug\net10.0\C#.AssemblyInfoInputs.cache
+D:\Everything\TestAPi\obj\Debug\net10.0\C#.AssemblyInfo.cs
+D:\Everything\TestAPi\obj\Debug\net10.0\C#.csproj.CoreCompileInputs.cache
+D:\Everything\TestAPi\obj\Debug\net10.0\C#.MvcApplicationPartsAssemblyInfo.cs
+D:\Everything\TestAPi\obj\Debug\net10.0\C#.MvcApplicationPartsAssemblyInfo.cache
+D:\Everything\TestAPi\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Everything\TestAPi\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Everything\TestAPi\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Everything\TestAPi\obj\Debug\net10.0\scopedcss\bundle\C#.styles.css
+D:\Everything\TestAPi\obj\Debug\net10.0\staticwebassets.build.json
+D:\Everything\TestAPi\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Everything\TestAPi\obj\Debug\net10.0\staticwebassets.development.json
+D:\Everything\TestAPi\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Everything\TestAPi\obj\Debug\net10.0\swae.build.ex.cache
+D:\Everything\TestAPi\obj\Debug\net10.0\C#.csproj.Up2Date
+D:\Everything\TestAPi\obj\Debug\net10.0\C#.dll
+D:\Everything\TestAPi\obj\Debug\net10.0\refint\C#.dll
+D:\Everything\TestAPi\obj\Debug\net10.0\C#.pdb
+D:\Everything\TestAPi\obj\Debug\net10.0\C#.genruntimeconfig.cache
+D:\Everything\TestAPi\obj\Debug\net10.0\ref\C#.dll

@@ -1,0 +1,152 @@
+using Microsoft.AspNetCore.Mvc;
+using TestApi.Api.Dtos;
+using System.Text.Json;
+using System.Reflection.Metadata.Ecma335;
+
+namespace TestApi.Api.Cars
+{
+    [ApiController]
+    [Route("car")]
+    public class CarsController : ControllerBase
+    {
+        private readonly string filePath = Path.Combine(Directory.GetCurrentDirectory(),"data","cars.json");
+
+
+
+        List<CarDto> cars;
+        private List<CarDto> LoadCars()
+        {
+            if (!System.IO.File.Exists(filePath))
+                return new List<CarDto>();
+
+            var json = System.IO.File.ReadAllText(filePath);
+            return JsonSerializer.Deserialize<List<CarDto>>(json) ?? new List<CarDto>();
+        }
+
+        private void SaveCars(List<CarDto> cars)
+        {
+            System.IO.File.WriteAllText(filePath, JsonSerializer.Serialize(cars));
+        }
+
+
+        UpdateCarDto AddCar(AddCarsDto car)
+        {
+
+        cars = LoadCars();
+
+        CarDto newCar = new CarDto
+        {
+            Id = IDGenerator(cars),
+            Make = car.Make,
+            Model = car.Model,
+            Year = car.Year,
+            Color = car.Color,
+            Price = new Random().Next(1000, 2000)
+        };
+        cars.Add(newCar);
+        SaveCars(cars);
+
+        var returnCar = new UpdateCarDto
+        {
+            Make = newCar.Make,
+            Model = newCar.Model,
+            Year = newCar.Year,
+            Color = newCar.Color,
+            Price = newCar.Price
+        };
+        
+        return returnCar;
+
+        }
+
+
+
+
+
+        int IDGenerator(List<CarDto> cars)
+        {
+           return cars.Count == 0 ? 0 : cars.Max(c => c.Id) + 1;;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        [HttpGet("")]
+
+        public ActionResult<List<CarDto>> CarsGet()
+        {
+            List<CarDto> temp = LoadCars();
+            return Ok(temp);
+        }
+
+
+
+        [HttpGet("{id}")]
+        public ActionResult<List<CarDto>> CarGetId(int id)
+        {
+            cars = LoadCars();
+
+            int index = cars.FindIndex(car => car.Id == id);
+            if(index == -1){return NotFound("TESTING STRING");} //ERROR TEST
+            return Ok(cars[index]);
+        }
+
+        [HttpPost("")]
+        public ActionResult<UpdateCarDto> AddCarToList([FromBody]AddCarsDto car)
+        {
+            UpdateCarDto returnResult = AddCar(car);
+            
+            return Ok(returnResult);
+        }
+
+
+        [HttpPut("{id}")]
+        public ActionResult<UpdateCarDto> UpdateCar(int id, [FromBody]UpdateCarDto car)
+        {
+            
+            cars = LoadCars();
+            var index = cars.FindIndex(car => car.Id == id);
+            if(index == -1){return NotFound();}
+            cars[index] = cars[index] with 
+            {
+                Make = car.Make,
+                Model = car.Model,
+                Year = car.Year,
+                Color = car.Color,
+                Price = car.Price
+
+            };
+            SaveCars(cars);
+
+            return NoContent();
+        }
+
+
+        [HttpDelete("{id}")]
+        public ActionResult DeleteCar(int id)
+        {
+            cars = LoadCars();
+            var index = cars.FindIndex(car => car.Id == id);
+            if(index == -1){return NotFound();}
+            cars.RemoveAt(index);
+            SaveCars(cars);
+
+            return NoContent();
+        }
+
+
+    }
+}

@@ -1,0 +1,45 @@
+@URL =  https://localhost:7186
+
+GET {{URL}}/car/admin
+Accept: application/json
+
+###
+### Get all cars
+GET {{URL}}/car
+Accept: application/json
+
+
+### Get cars by ID
+GET {{URL}}/car/5
+Accept: application/json
+
+
+### Delete car
+DELETE {{URL}}/car/7
+Accept: application/json
+
+### Create car
+POST {{URL}}/car/addcar
+Content-Type: application/json
+
+  {
+    "Make": "BMW",
+    "Model": "M5",
+    "Year": 2016,
+    "Color": "Black"
+  }
+
+
+### Update car
+PUT {{URL}}/car/7
+Content-Type: application/json
+
+  {
+    "Make": "Ferrari",
+    "Model": "Monza",
+    "Year": 2015,
+    "Color": "Red",
+    "Price": 1900000
+  }
+
+###
